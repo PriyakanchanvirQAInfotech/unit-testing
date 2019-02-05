@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.qait.Consecutive.Junit.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec <<< FAILURE! - in org.qait.Consecutive.Junit.AppTest
+arrayListInteger(org.qait.Consecutive.Junit.AppTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<String should contains letters> but was:<[112, 1887, 3633]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.qait.Consecutive.Junit.AppTest.arrayListInteger(AppTest.java:40)
+
