@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.qait.Consecutive.TestNG.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.326 sec <<< FAILURE! - in org.qait.Consecutive.TestNG.AppTest
+arrayListInteger(org.qait.Consecutive.TestNG.AppTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected [String should contains letters] but found [[112, 1887, 3633]]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at org.qait.Consecutive.TestNG.AppTest.arrayListInteger(AppTest.java:41)
+
